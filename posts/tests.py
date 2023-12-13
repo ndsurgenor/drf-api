@@ -30,7 +30,6 @@ class PostListViewTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
     
     def test_logged_out_user_cannot_create_post(self):
-        self.client.logout()
         response = self.client.post(
             '/posts/', {'title': 'post_title'},
         )
