@@ -64,7 +64,7 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [
     '8000-ndsurgenor-drfapi-6akvt7hx9ud.ws-eu107.gitpod.io',
     'localhost',
-    'nds-drf-api.herokuapp.com',
+    'nds-drf-api-b69fd84855e5.herokuapp.com',
 ]
 
 
